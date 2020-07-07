@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Test Site Blog</title>
+        <title>Bribe By Bytes.. Blog</title>
         <link>https://github.com/bribebybytes.github.io/landing-page/blog</link>
-        <description>The best place to stay up-to-date with the latest Test Site news and events.</description>
+        <description>The best place to stay up-to-date with the latest Bribe By Bytes.. news and events.</description>
         <lastBuildDate>Tue, 24 Oct 2017 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
-            <title>Test Site Blog</title>
-            <url>https://github.com/bribebybytes.github.io/landing-page/img/favicon.ico</url>
+            <title>Bribe By Bytes.. Blog</title>
+            <url>https://github.com/bribebybytes.github.io/landing-page/img/logo_circle.png</url>
             <link>https://github.com/bribebybytes.github.io/landing-page/blog</link>
         </image>
         <copyright>Copyright © 2020 Your Name or Your Company Name</copyright>
