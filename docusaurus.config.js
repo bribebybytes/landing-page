@@ -1,12 +1,12 @@
 module.exports = {
   title: 'Bribe By Bytes',
   tagline: 'Learn Tech One Byte at a Time',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://github.com/bribebybytes.github.io',
+  baseUrl: '/landing-page/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'bribebybytes', // Usually your GitHub org/user name.
+  projectName: 'landing-page', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Bribe By Bytes',
