@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Bribe By Bytes',
   tagline: 'Learn Tech One Byte at a Time',
-  url: 'https://github.com/bribebybytes.github.io',
+  url: 'https://bribebybytes.github.io',
   baseUrl: '/landing-page/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
