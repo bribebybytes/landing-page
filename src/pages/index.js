@@ -5,6 +5,32 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import Slider from "react-slick";
+import { motion } from "framer-motion"
+
+// Bribe Slider
+function BribeVideoSlider() {
+  const settings = {
+      dots: true,
+      infinite: false,
+      speed: 500,
+      slidesToShow: 2,
+      slidesToScroll: 1
+  };
+  const context = useDocusaurusContext();
+  const {siteConfig = {}} = context;
+  const videos = siteConfig.customFields;
+return (
+    <section id="bribeVideos">      
+      <h1 className="hero__title">{videos.videoTile} </h1>
+      <Slider {...settings}> 
+      {videos.yTubeVideos.map((props, idx) => (        
+          <div key={idx}><iframe src={props.url} /></div>
+      ))}                   
+    </Slider>
+    </section>
+);
+}
 
 const features = [
   {
@@ -56,27 +82,22 @@ function Feature({imageUrl, title, description}) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const {siteConfig = {}} = context;  
+  
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              Get Started
-            </Link>
-          </div>
+      <header style={{ backgroundImage: `url(${siteConfig.themeConfig.bannerImg})` }} className={clsx('hero hero--primary', styles.heroBanner)}>         
+        <div className="row headerWrap">
+          <div className="col col--12">
+            <h1 className="hero__title">{siteConfig.title}</h1>
+            <p className="hero__subtitle">{siteConfig.tagline}</p>
+          </div> 
+          
         </div>
       </header>
+      <BribeVideoSlider />
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
