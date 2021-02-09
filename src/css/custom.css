@@ -557,7 +557,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	margin: 0 calc(var(--ifm-spacing-horizontal)*-1)
+	margin: 0 calc(-1 * var(--ifm-spacing-horizontal));
 }
 
 .margin-bottom--none,
@@ -1310,8 +1310,8 @@ hr {
 }
 
 .alert .close {
-	margin-right: calc(var(--ifm-alert-padding-horizontal)*-1);
-	margin-top: calc(var(--ifm-alert-padding-vertical)*-1)
+	margin-right: calc(-1 * var(--ifm-alert-padding-horizontal));
+	margin-top: calc(-1 * var(--ifm-alert-padding-vertical))
 }
 
 .avatar,
@@ -2911,7 +2911,7 @@ html[data-theme=light] .themedImage--light_2e-4 {
 }
 
 .navbarHidden_360y {
-	transform: translate3d(0, calc(var(--ifm-navbar-height)*-1), 0)
+	transform: translate3d(0, calc(-1 * var(--ifm-navbar-height)), 0)
 }
 
 .footerLogoLink_3lUq {
@@ -3058,7 +3058,7 @@ body:not(.navigation-with-keyboard) :not(input):focus {
 }
 
 .enhancedAnchor_2DO0 {
-	top: calc(var(--ifm-navbar-height)*-1)
+	top: calc(-1 * var(--ifm-navbar-height))
 }
 
 .mdxCodeBlock_2_Y8 {
