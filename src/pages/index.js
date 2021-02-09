@@ -61,23 +61,16 @@ function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              Get Started
-            </Link>
+      <main>
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+        <div class="hero_2alu">
+          <div class="heroInner_2zbQ">
+              <h1 class="heroProjectTagline_2Prd"><img alt="Bribe By Bytes" class="heroLogo_3Bfc" src="/landing-page/img/logo_transparent_small.png"/>
+              <span class="heroTitleTextHtml_1Gus">Learn One <b>Byte</b> at a <b>Time</b>, Be a part of <b>India's Largest Tech Cult!</b></span></h1>
+              <div class="indexCtas_38Di"><a class="button button--primary" href="/docs">Get Started</a><a href="https://new.docusaurus.io" target="_blank" rel="noopener noreferrer" class="button button--info">Playground</a>
+              </div>
           </div>
         </div>
-      </header>
-      <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
