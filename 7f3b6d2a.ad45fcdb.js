@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{69:function(b){b.exports=JSON.parse('{"allTagsPath":"/landing-page/blog/tags","slug":"bribebybytes","name":"bribebybytes","count":1,"permalink":"/landing-page/blog/tags/bribebybytes"}')}}]);

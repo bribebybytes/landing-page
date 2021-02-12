@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{65:function(a){a.exports=JSON.parse('{"allTagsPath":"/landing-page/blog/tags","slug":"narainkrishh","name":"narainkrishh","count":1,"permalink":"/landing-page/blog/tags/narainkrishh"}')}}]);

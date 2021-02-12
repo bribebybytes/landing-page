@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{70:function(a){a.exports=JSON.parse('{"allTagsPath":"/landing-page/blog/tags","slug":"gui","name":"gui","count":1,"permalink":"/landing-page/blog/tags/gui"}')}}]);
